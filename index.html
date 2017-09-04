@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>Game</title>
+		<style>
+			body{
+				font-family: sans-serif;
+			}
+			h1{
+				text-align: center;
+			}
+			#canvas{
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				margin: auto;
+			}
+			.score{
+				font-size: 4em;
+			}
+			#player-score{
+				float: left;
+			}
+			#ai-score{
+				float: right;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Pong</h1>
+		<canvas id="canvas"></canvas>
+		<script type="text/javascript" src="game.js"></script>
+	</body>
+</html>
